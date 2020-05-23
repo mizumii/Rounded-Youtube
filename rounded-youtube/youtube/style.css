@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+ytd-thumbnail #thumbnail.ytd-thumbnail {
+    border-radius: 14px;
+}
+ytd-thumbnail-overlay-time-status-renderer {
+    background-color: rgba(255, 217, 30, 0.82);
+}
+ytd-thumbnail.style-scope.ytd-rich-grid-video-renderer {
+    background: rgb(249, 249, 249) !important;
+}
+a#thumbnail {
+    /* opacity: 0; */
+    rgb(249, 249, 249);
+}
+html:not(.style-scope) {
+--yt-spec-10-percent-layer: rgba(0, 0, 0, 0)!important;}
+.rich-thumbnail.skeleton-bg-color {
+    opacity: 0;
+    display: none!important;
+}
+#text.ytd-channel-name {
+    font-size: 12px;
+}
+ytd-post-renderer.style-scope.ytd-rich-item-renderer {
+    border-radius: 15px !important;
+    background: #fff;
+    border: solid 1px #d7d7d7;
+}
+div#metadata-line {
+    font-size: 12px !important;
+}
+/* #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+  background: #EECDA3;
+background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
+background: linear-gradient(to right, #EF629F, #EECDA3);
+} */
+.html5-video-player{
+    background-color: #000;
+    border-radius: 15px;
+}
+paper-button.style-scope.ytd-subscribe-button-renderer {
+    border-radius: 9px;
+}
+/*検索バー*/
+#search-icon-legacy.ytd-searchbox {
+    border-radius: 0px 15px 15px 0px !important;
+}
+form#search-form * {
+    border-radius: 15px 0 0 15px !important;
+}
+/*チャット欄*/
+ytd-toggle-button-renderer.style-scope.ytd-live-chat-frame {
+    border-radius: 0px 0 15px 15px;
+}iframe#chatframe {
+    border-radius: 15px 15px 0 0;
+}
+/**/
+ytd-rich-metadata-renderer.style-scope.ytd-rich-metadata-row-renderer {
+    border-radius: 12px;
+}
